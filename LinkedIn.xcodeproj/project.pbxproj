@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0FBA411E8CCAD000D06AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA3A1E8CCAD000D06AF8 /* LaunchScreen.storyboard */; };
+		1D0FBA421E8CCAD000D06AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA3B1E8CCAD000D06AF8 /* Main.storyboard */; };
+		1D0FBA431E8CCAD000D06AF8 /* ComposepostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA3D1E8CCAD000D06AF8 /* ComposepostViewController.swift */; };
+		1D0FBA441E8CCAD000D06AF8 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA3E1E8CCAD000D06AF8 /* MainScreenViewController.swift */; };
+		1D0FBA451E8CCAD000D06AF8 /* sideScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA3F1E8CCAD000D06AF8 /* sideScreenViewController.swift */; };
+		1D0FBA461E8CCAD000D06AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA401E8CCAD000D06AF8 /* ViewController.swift */; };
+		1D0FBA4C1E8CCAE400D06AF8 /* homePageFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA481E8CCAE400D06AF8 /* homePageFirstTableViewCell.swift */; };
+		1D0FBA4D1E8CCAE400D06AF8 /* homePageSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA491E8CCAE400D06AF8 /* homePageSecondTableViewCell.swift */; };
+		1D0FBA4E1E8CCAE400D06AF8 /* homePageThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA4A1E8CCAE400D06AF8 /* homePageThirdTableViewCell.swift */; };
+		1D0FBA4F1E8CCAE400D06AF8 /* SideFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA4B1E8CCAE400D06AF8 /* SideFirstTableViewCell.swift */; };
+		1D0FBA541E8CCAF900D06AF8 /* homePageFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA511E8CCAF900D06AF8 /* homePageFirstTableViewCell.xib */; };
+		1D0FBA551E8CCAF900D06AF8 /* homePageSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA521E8CCAF900D06AF8 /* homePageSecondTableViewCell.xib */; };
+		1D0FBA561E8CCAF900D06AF8 /* homePageThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA531E8CCAF900D06AF8 /* homePageThirdTableViewCell.xib */; };
+		1D0FBA5A1E8CCB1500D06AF8 /* headerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA581E8CCB1500D06AF8 /* headerView.swift */; };
+		1D0FBA5B1E8CCB1500D06AF8 /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA591E8CCB1500D06AF8 /* headerView.xib */; };
+		1D0FBA5F1E8CCB2100D06AF8 /* footerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA5D1E8CCB2100D06AF8 /* footerView.swift */; };
+		1D0FBA601E8CCB2100D06AF8 /* footerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FBA5E1E8CCB2100D06AF8 /* footerView.xib */; };
+		1D0FBA651E8CCB4800D06AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA641E8CCB4800D06AF8 /* AppDelegate.swift */; };
+		1D0FBA671E8CEF7F00D06AF8 /* enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBA661E8CEF7F00D06AF8 /* enumerations.swift */; };
+		1DC5558C1E8A822100710EA2 /* LinkedIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5558A1E8A822100710EA2 /* LinkedIn.xcdatamodeld */; };
+		1DC5558E1E8A822100710EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5558D1E8A822100710EA2 /* Assets.xcassets */; };
+		D74C4BB2DF0D446C12262F8F /* Pods_LinkedIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A46FABB33D685FF39B73FD /* Pods_LinkedIn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0717FA02D19B707DEE7E2340 /* Pods-LinkedIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkedIn/Pods-LinkedIn.release.xcconfig"; sourceTree = "<group>"; };
+		1D0FBA3A1E8CCAD000D06AF8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D0FBA3B1E8CCAD000D06AF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D0FBA3D1E8CCAD000D06AF8 /* ComposepostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposepostViewController.swift; sourceTree = "<group>"; };
+		1D0FBA3E1E8CCAD000D06AF8 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		1D0FBA3F1E8CCAD000D06AF8 /* sideScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideScreenViewController.swift; sourceTree = "<group>"; };
+		1D0FBA401E8CCAD000D06AF8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0FBA481E8CCAE400D06AF8 /* homePageFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePageFirstTableViewCell.swift; sourceTree = "<group>"; };
+		1D0FBA491E8CCAE400D06AF8 /* homePageSecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePageSecondTableViewCell.swift; sourceTree = "<group>"; };
+		1D0FBA4A1E8CCAE400D06AF8 /* homePageThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePageThirdTableViewCell.swift; sourceTree = "<group>"; };
+		1D0FBA4B1E8CCAE400D06AF8 /* SideFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideFirstTableViewCell.swift; sourceTree = "<group>"; };
+		1D0FBA511E8CCAF900D06AF8 /* homePageFirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homePageFirstTableViewCell.xib; sourceTree = "<group>"; };
+		1D0FBA521E8CCAF900D06AF8 /* homePageSecondTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homePageSecondTableViewCell.xib; sourceTree = "<group>"; };
+		1D0FBA531E8CCAF900D06AF8 /* homePageThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homePageThirdTableViewCell.xib; sourceTree = "<group>"; };
+		1D0FBA581E8CCB1500D06AF8 /* headerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerView.swift; sourceTree = "<group>"; };
+		1D0FBA591E8CCB1500D06AF8 /* headerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		1D0FBA5D1E8CCB2100D06AF8 /* footerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = footerView.swift; sourceTree = "<group>"; };
+		1D0FBA5E1E8CCB2100D06AF8 /* footerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = footerView.xib; sourceTree = "<group>"; };
+		1D0FBA641E8CCB4800D06AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D0FBA661E8CEF7F00D06AF8 /* enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumerations.swift; sourceTree = "<group>"; };
+		1DC555801E8A822100710EA2 /* LinkedIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC5558B1E8A822100710EA2 /* LinkedIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinkedIn.xcdatamodel; sourceTree = "<group>"; };
+		1DC5558D1E8A822100710EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC555921E8A822100710EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6038599C5E4304598B2B337E /* Pods-LinkedIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkedIn/Pods-LinkedIn.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A46FABB33D685FF39B73FD /* Pods_LinkedIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC5557D1E8A822100710EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74C4BB2DF0D446C12262F8F /* Pods_LinkedIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0FBA371E8CCAD000D06AF8 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA381E8CCAD000D06AF8 /* Model */,
+				1D0FBA391E8CCAD000D06AF8 /* View */,
+				1D0FBA3C1E8CCAD000D06AF8 /* ViewController */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1D0FBA381E8CCAD000D06AF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D0FBA391E8CCAD000D06AF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA3A1E8CCAD000D06AF8 /* LaunchScreen.storyboard */,
+				1D0FBA3B1E8CCAD000D06AF8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D0FBA3C1E8CCAD000D06AF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA3D1E8CCAD000D06AF8 /* ComposepostViewController.swift */,
+				1D0FBA3E1E8CCAD000D06AF8 /* MainScreenViewController.swift */,
+				1D0FBA3F1E8CCAD000D06AF8 /* sideScreenViewController.swift */,
+				1D0FBA401E8CCAD000D06AF8 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1D0FBA471E8CCAE400D06AF8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA481E8CCAE400D06AF8 /* homePageFirstTableViewCell.swift */,
+				1D0FBA491E8CCAE400D06AF8 /* homePageSecondTableViewCell.swift */,
+				1D0FBA4A1E8CCAE400D06AF8 /* homePageThirdTableViewCell.swift */,
+				1D0FBA4B1E8CCAE400D06AF8 /* SideFirstTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1D0FBA501E8CCAF900D06AF8 /* TableViewCellXib */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA511E8CCAF900D06AF8 /* homePageFirstTableViewCell.xib */,
+				1D0FBA521E8CCAF900D06AF8 /* homePageSecondTableViewCell.xib */,
+				1D0FBA531E8CCAF900D06AF8 /* homePageThirdTableViewCell.xib */,
+			);
+			path = TableViewCellXib;
+			sourceTree = "<group>";
+		};
+		1D0FBA571E8CCB1500D06AF8 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA581E8CCB1500D06AF8 /* headerView.swift */,
+				1D0FBA591E8CCB1500D06AF8 /* headerView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		1D0FBA5C1E8CCB2100D06AF8 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA5D1E8CCB2100D06AF8 /* footerView.swift */,
+				1D0FBA5E1E8CCB2100D06AF8 /* footerView.xib */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		1D0FBA611E8CCB3000D06AF8 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA661E8CEF7F00D06AF8 /* enumerations.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		1D0FBA621E8CCB3C00D06AF8 /* CommanFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommanFunctions;
+			sourceTree = "<group>";
+		};
+		1D0FBA631E8CCB4800D06AF8 /* AppHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA641E8CCB4800D06AF8 /* AppDelegate.swift */,
+			);
+			path = AppHandler;
+			sourceTree = "<group>";
+		};
+		1DC555771E8A822100710EA2 = {
+			isa = PBXGroup;
+			children = (
+				1DC555821E8A822100710EA2 /* LinkedIn */,
+				1DC555811E8A822100710EA2 /* Products */,
+				40A8515C001C4FCE63CCAC93 /* Pods */,
+				8CB3AEC26570D812EE1D41F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC555811E8A822100710EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC555801E8A822100710EA2 /* LinkedIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC555821E8A822100710EA2 /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FBA631E8CCB4800D06AF8 /* AppHandler */,
+				1D0FBA621E8CCB3C00D06AF8 /* CommanFunctions */,
+				1D0FBA611E8CCB3000D06AF8 /* Enumerations */,
+				1D0FBA5C1E8CCB2100D06AF8 /* FooterView */,
+				1D0FBA571E8CCB1500D06AF8 /* HeaderView */,
+				1D0FBA501E8CCAF900D06AF8 /* TableViewCellXib */,
+				1D0FBA471E8CCAE400D06AF8 /* TableViewCell */,
+				1D0FBA371E8CCAD000D06AF8 /* MVC */,
+				1DC5558D1E8A822100710EA2 /* Assets.xcassets */,
+				1DC555921E8A822100710EA2 /* Info.plist */,
+				1DC5558A1E8A822100710EA2 /* LinkedIn.xcdatamodeld */,
+			);
+			path = LinkedIn;
+			sourceTree = "<group>";
+		};
+		40A8515C001C4FCE63CCAC93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6038599C5E4304598B2B337E /* Pods-LinkedIn.debug.xcconfig */,
+				0717FA02D19B707DEE7E2340 /* Pods-LinkedIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB3AEC26570D812EE1D41F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A46FABB33D685FF39B73FD /* Pods_LinkedIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC5557F1E8A822100710EA2 /* LinkedIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC555951E8A822100710EA2 /* Build configuration list for PBXNativeTarget "LinkedIn" */;
+			buildPhases = (
+				A76C20C2B8318C9AEA380D0A /* [CP] Check Pods Manifest.lock */,
+				1DC5557C1E8A822100710EA2 /* Sources */,
+				1DC5557D1E8A822100710EA2 /* Frameworks */,
+				1DC5557E1E8A822100710EA2 /* Resources */,
+				921AA6161A182382DD3E8772 /* [CP] Embed Pods Frameworks */,
+				56C12590A4E1B0489F9834B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedIn;
+			productName = LinkedIn;
+			productReference = 1DC555801E8A822100710EA2 /* LinkedIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC555781E8A822100710EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Code-brew";
+				TargetAttributes = {
+					1DC5557F1E8A822100710EA2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DC5557B1E8A822100710EA2 /* Build configuration list for PBXProject "LinkedIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC555771E8A822100710EA2;
+			productRefGroup = 1DC555811E8A822100710EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC5557F1E8A822100710EA2 /* LinkedIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC5557E1E8A822100710EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0FBA411E8CCAD000D06AF8 /* LaunchScreen.storyboard in Resources */,
+				1D0FBA551E8CCAF900D06AF8 /* homePageSecondTableViewCell.xib in Resources */,
+				1D0FBA421E8CCAD000D06AF8 /* Main.storyboard in Resources */,
+				1D0FBA601E8CCB2100D06AF8 /* footerView.xib in Resources */,
+				1D0FBA5B1E8CCB1500D06AF8 /* headerView.xib in Resources */,
+				1D0FBA561E8CCAF900D06AF8 /* homePageThirdTableViewCell.xib in Resources */,
+				1DC5558E1E8A822100710EA2 /* Assets.xcassets in Resources */,
+				1D0FBA541E8CCAF900D06AF8 /* homePageFirstTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56C12590A4E1B0489F9834B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkedIn/Pods-LinkedIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921AA6161A182382DD3E8772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkedIn/Pods-LinkedIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76C20C2B8318C9AEA380D0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC5557C1E8A822100710EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0FBA4F1E8CCAE400D06AF8 /* SideFirstTableViewCell.swift in Sources */,
+				1D0FBA5F1E8CCB2100D06AF8 /* footerView.swift in Sources */,
+				1D0FBA4C1E8CCAE400D06AF8 /* homePageFirstTableViewCell.swift in Sources */,
+				1D0FBA431E8CCAD000D06AF8 /* ComposepostViewController.swift in Sources */,
+				1D0FBA441E8CCAD000D06AF8 /* MainScreenViewController.swift in Sources */,
+				1DC5558C1E8A822100710EA2 /* LinkedIn.xcdatamodeld in Sources */,
+				1D0FBA4D1E8CCAE400D06AF8 /* homePageSecondTableViewCell.swift in Sources */,
+				1D0FBA4E1E8CCAE400D06AF8 /* homePageThirdTableViewCell.swift in Sources */,
+				1D0FBA671E8CEF7F00D06AF8 /* enumerations.swift in Sources */,
+				1D0FBA5A1E8CCB1500D06AF8 /* headerView.swift in Sources */,
+				1D0FBA461E8CCAD000D06AF8 /* ViewController.swift in Sources */,
+				1D0FBA451E8CCAD000D06AF8 /* sideScreenViewController.swift in Sources */,
+				1D0FBA651E8CCB4800D06AF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DC555931E8A822100710EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC555941E8A822100710EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DC555961E8A822100710EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6038599C5E4304598B2B337E /* Pods-LinkedIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkedIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebrew.LinkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DC555971E8A822100710EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0717FA02D19B707DEE7E2340 /* Pods-LinkedIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkedIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebrew.LinkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC5557B1E8A822100710EA2 /* Build configuration list for PBXProject "LinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC555931E8A822100710EA2 /* Debug */,
+				1DC555941E8A822100710EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC555951E8A822100710EA2 /* Build configuration list for PBXNativeTarget "LinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC555961E8A822100710EA2 /* Debug */,
+				1DC555971E8A822100710EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DC5558A1E8A822100710EA2 /* LinkedIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DC5558B1E8A822100710EA2 /* LinkedIn.xcdatamodel */,
+			);
+			currentVersion = 1DC5558B1E8A822100710EA2 /* LinkedIn.xcdatamodel */;
+			path = LinkedIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DC555781E8A822100710EA2 /* Project object */;
+}
